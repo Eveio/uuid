@@ -3,6 +3,12 @@ php:
   - 7.4
   - 8.0
   - nightly
+install:
+  - composer self-update
+  - composer install --prefer-dist --no-interaction
 script:
   - composer cs
   - composer test
+cache:
+  directories:
+    - vendor/

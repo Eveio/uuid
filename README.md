@@ -1,4 +1,4 @@
-# eve/uuid
+# eve/uuid [![Build Status](https://travis-ci.org/Eveio/uuid.svg?branch=main)](https://travis-ci.org/Eveio/uuid)
 
 ![banner](./assets/banner.png)
 
