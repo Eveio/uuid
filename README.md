@@ -19,7 +19,7 @@ For the sake of simplicity and internal usage, eve's `Uuid` class only deals wit
 ```php
 use Eve\Uuid\Uuid;
 
-// Generate an UUID string
+// Generate a UUID string
 $uuid = Uuid::generate();
 
 // The package also comes with a handy global function
