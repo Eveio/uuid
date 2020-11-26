@@ -1,0 +1,33 @@
+{
+    "name": "eve/uuid",
+    "description": "eve's simple Ramsey UUID wrapper",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "ramsey/uuid": "^4.1"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.4",
+        "eve/coding-standard": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Eve\\Uuid\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always",
+        "cs": "phpcs --standard=ruleset.xml",
+        "cs:fix": "phpcbf --standard=ruleset.xml"
+    }
+}
